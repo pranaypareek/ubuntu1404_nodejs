@@ -20,6 +20,7 @@ RUN . /root/.nvm/nvm.sh && nvm install 0.8;
 RUN . /root/.nvm/nvm.sh && nvm install 0.10;
 RUN . /root/.nvm/nvm.sh && nvm install 0.11;
 RUN . /root/.nvm/nvm.sh && nvm install 0.12;
+RUN . /root/.nvm/nvm.sh && nvm install 4.0.0;
 RUN . /root/.nvm/nvm.sh && nvm alias default 0.10;
 
 CMD [ "node" ]
